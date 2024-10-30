@@ -1,0 +1,74 @@
+.bcs-container {
+	padding: 15px; 
+}
+
+.bcs-section {
+	padding: 10px 10px 15px 10px;
+	margin: 15px 0 35px 0;
+}
+
+.bcs-section-highlight {
+	background: #e9f5fb;
+	border: solid 1px #d6ebf4;
+}
+
+.bcs-section-normal {
+	background: #f9f9f9;
+	border: solid 1px #eee;
+}
+
+.bcs-container .bcs-section-title {
+	margin: 0;
+}
+
+.bcs-container .bcs-section-subtitle {
+	margin: 0;
+}
+
+.postbox table.bcs-form-table {}
+
+.postbox table.bcs-form-table th {
+	font-weight: normal;
+}
+
+.postbox table.bcs-form-table th,
+.postbox table.bcs-form-table td {
+	padding: 5px 10px 10px;
+	vertical-align: top;
+}
+
+.postbox table.bcs-form-table .bcs-form-table-cell {
+	padding-left: 50px;
+}
+
+.postbox table.bcs-form-table .bcs-family {
+	margin: 0;
+	font-size: 1.2em;
+}
+
+.postbox table.bcs-form-table .bcs-family-member {
+	margin: 0;
+	font-size: 1em;
+	text-transform: capitalize;
+	color: #999;
+}
+
+.postbox table.bcs-form-table .bcs-family-member-child {
+	font-weight: bold;
+}
+
+.bcs-tag {
+	display: inline-block;
+	background-color: #fffde2;
+	border: solid 1px #f4f2ca;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 5px;
+	padding: 3px 5px;
+}
+
+@media screen and (max-width: 962px) {
+	.postbox table.bcs-form-table .bcs-form-table-cell {
+		padding-left: 0;
+	}
+}
